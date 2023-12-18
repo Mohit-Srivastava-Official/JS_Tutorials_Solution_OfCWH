@@ -1,3 +1,4 @@
+//3.using console.error to log the error if the age entered is negative.
 let age=prompt("Enter your age");
 if(age>=18)
 {
