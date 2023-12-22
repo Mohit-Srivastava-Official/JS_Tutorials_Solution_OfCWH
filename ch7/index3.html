@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Changing font color</title>
     <style>
-        .box
+        button
         {
-            width: 50px;
-            height: 50px;
-            border: 2px solid blue;
-            border-radius: 5px;
+            margin-top: 0.5rem;
+            padding: 10px 10px 10px 10px;
+            background: crimson;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            transition: all linear 0.5s;
+            cursor: pointer;
+        }
+        button:hover {
+            transform: translate(0px, -5px);
         }
     </style>
 </head>
 <body>
-    <!-- <div class="conatiner"> -->
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-    <!-- </div> -->
+    <div id="gfg">
+        <h1>
+            Welcome to Solutions of JavaScript
+        </h1>
+    </div>
+    <button onClick="changeColor()">
+        Change color
+    </button>
+
     <script src="index3.js"></script>
 
 
